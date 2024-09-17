@@ -18,6 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .header ul{
@@ -25,28 +26,36 @@
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 0.5em;
+    gap: 1.3em;
     /* margin-right: 8px;     */
+}
+
+.header ul li{
+    border: 3px outset black;
+    background-color: rgb(181, 2, 2);
+    padding: 1px 10px;
 }
 
 a{
     text-decoration: none;
     color: white;
-    font-size: 17px;
+    font-size: 18px;
+    font-family: serif;
 }
 
 .header-h3{
     text-align: left;
-    margin-top: 20px;
     margin-bottom: 0px;
     font-size: 20px;
+    /* border: 3px outset black; */
 }
 
 .header-paragraph-and-image{
     display: flex;
     justify-content: space-between;
     flex: 1;
-    gap: 0.5em;
+    gap: 1em;
+    font-size: 14px;
 }
 
 .header-paragraph-and-image p{
@@ -59,7 +68,17 @@ a{
     gap: 5em;
     /* justify-content: center; */
     align-items: center;
-    padding-top: 5px;
+    /* padding-top: 5px; */
+}
+
+.header-image-grid{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-image-grid-row{
+    display: flex;
+    flex-direction: row;
 }
 
 .header-paragraph-and-button button{
@@ -71,3 +90,25 @@ a{
     font-size: 18px;
     font-family: serif;
 }
+
+h2{
+    text-align: center;
+}
+
+.services-offered{
+    background-color: rgb(255, 186, 186);
+}
+
+.services-offered-h2{
+    text-align: center;
+}
+
+.services-offered-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5em;
+    padding: 10px 50px 30px 50px;
+    flex: 1;
+}
+
+/* .services-offered-body h3{} */
