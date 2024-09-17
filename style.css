@@ -26,7 +26,7 @@
     margin: 0;
     padding: 0;
     display: flex;
-    gap: 1.3em;
+    gap: 1.5em;
     /* margin-right: 8px;     */
 }
 
@@ -89,10 +89,12 @@ a{
     background-color: rgb(181, 2, 2);
     font-size: 18px;
     font-family: serif;
+    margin-top: auto;
 }
 
 h2{
     text-align: center;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .services-offered{
@@ -111,4 +113,28 @@ h2{
     flex: 1;
 }
 
-/* .services-offered-body h3{} */
+.membership-program{
+    background-color: rgb(213, 9, 9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 50px 30px 50px;
+    flex: 1;
+}
+
+.membership-program-section-2{
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.membership-program-section-2 h3{
+    display: flex;
+    align-items: center;
+}
+
+.membership-program-section-2-p{
+    display: flex;
+    flex-direction: column;
+    gap: 0em;
+}
